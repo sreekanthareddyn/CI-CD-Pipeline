@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://xmlns.oracle.com/oxp/service/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:updateObject>
+         <v2:objectAbsolutePath>${objectAbsolutePath}</v2:objectAbsolutePath>
+         <v2:objectData>?</v2:objectData>
+         <v2:userID>${userID}</v2:userID>
+         <v2:password>${password}</v2:password>
+      </v2:updateObject>
+   </soapenv:Body>
+</soapenv:Envelope>

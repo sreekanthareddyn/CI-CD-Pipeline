@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://xmlns.oracle.com/oxp/service/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:uploadObject>
+         <v2:reportObjectAbsolutePathURL>${reportObjectAbsolutePathURL}</v2:reportObjectAbsolutePathURL>
+         <v2:objectType>${objectType}</v2:objectType>
+         <v2:objectZippedData>${objectZippedData}</v2:objectZippedData>
+         <v2:userID>${userID}</v2:userID>
+         <v2:password>${password}</v2:password>
+      </v2:uploadObject>
+   </soapenv:Body>
+</soapenv:Envelope>

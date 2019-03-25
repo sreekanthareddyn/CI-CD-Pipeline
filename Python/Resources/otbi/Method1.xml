@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:otbi="http://www.SoapClient.com/xml/SoapResponder.xsd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <otbi:Method1>
+        <otbi:bstrParam1>${bstrParam1}</otbi:bstrParam1>
+        <otbi:bstrParam2>${bstrParam2}</otbi:bstrParam2>
+      </otbi:Method1>
+   </soapenv:Body>
+</soapenv:Envelope>
