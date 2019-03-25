@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage ('Extract') {
+            steps {
+                echo 'Extract the artifact from Nexus'
+            }
+        }
+        stage ('UpdateRPD') {
+            steps {
+                echo 'update the environment properties specific to the environment'
+            }
+        }
+        stage ('TakeSnapshot'){
+            steps {
+                echo 'take a snapshot of the current environment'
+            }
+        }
+        stage ('DeployRPD') {
+            steps {
+                echo 'deploy the rpd file'
+            }
+        }
+        stage ('deployCatalog') {
+            steps {
+                echo 'deploy the catalog files'
+            }
+        }        
+    }
+}

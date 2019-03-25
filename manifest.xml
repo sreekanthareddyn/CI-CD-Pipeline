@@ -1,0 +1,4 @@
+create_snapshot.sh
+deploy_catalog.sh
+deploy_rpd.sh
+jenkinsfile_soa_build.groovy
